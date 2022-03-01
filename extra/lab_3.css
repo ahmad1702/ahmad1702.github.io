@@ -1,0 +1,232 @@
+html {
+    margin: 0px;
+    background-color: white;
+    overflow: hidden;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.heading {
+    padding: 0rem 0 2rem 0;
+    font-size: 25pt;
+    font-weight: 700;
+
+}
+
+nav {
+    
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 40px 40px 40px 40px;
+
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav li {
+    margin-left: 30px;
+    font-weight: 700;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+    background-color: rgb(235, 235, 235);
+}
+
+.active {
+    color: #7142df;
+}
+/*-----------  Useless but cool logo animation that will stay on the navbar  ------------*/
+nav h1 {
+    font-size: 35pt;
+    /* Fallback color. */
+    background-color: #7142df;
+    /* Gradient Creation */
+    background-image: linear-gradient(-45deg, #fbf8ccff, #fde4cfff, #ffcfd2ff, #f1c0e8ff, #cfbaf0ff, #a3c4f3ff, #90dbf4ff, #8eecf5ff, #98f5e1ff, #b9fbc0ff);
+    background-size: 300% 300%;
+    -webkit-animation: gradient 5s ease infinite;
+            animation: gradient 5s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    filter: brightness(0.95) saturate(3);
+}  
+
+.logo-container {
+    position: relative;
+    height: auto;
+}
+/* Makes it so it goes faster when hovered on */
+nav h1:hover {
+    -webkit-animation: gradient 1s ease infinite;
+    animation: gradient 1s ease infinite;
+}
+.logo {
+    top: -32px;
+    position: absolute;
+    z-index: 1;
+    text-shadow: rgba(5, 5, 5, 0.185) 0 0 30px;
+}
+.logoblur {
+    top: -32px;
+    position: absolute;
+    z-index: 0;
+
+    filter: blur(10px);
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+/*-----------------------*/
+
+
+.header {
+    height: 80vh;
+    /*
+    background-image: url('./img/iredescenttapei.jpg');
+    background-size: cover;
+    background-position: 0px 1800px;
+    filter: brightness(0.9); */
+
+        
+    background-image: url('./img/photo/IMG_0975.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+
+    color: white;
+}
+
+.header .heading {
+    position: absolute;
+    left: 3rem;
+    bottom: 6rem;
+}
+
+.header h1 {
+    font-size: 50pt;
+    letter-spacing: -5px;
+    
+    text-shadow: rgb(39, 39, 39) 0 0 30px;
+}
+.header h3 {
+    font-size: 20pt;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    margin-top: -10px;
+}
+
+
+/*------- Category Section-------*/
+
+.categories {
+    box-sizing: border-box;
+    padding: 5rem 10rem 10rem 10rem;
+}
+
+.categories .heading {
+    margin-top: 0px;
+}
+
+.cat-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.cat-container div{
+    
+    border-radius: 2rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.103);
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+    color: white;
+    font-size: 30pt;
+    font-weight: 600;
+    position: relative;
+    height: 600px;
+}
+.cat-container div p {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    text-shadow: 2px 2px 10px #000000;
+    color: white;
+}
+
+.cat-container div:hover {
+    filter: brightness(0.8);
+}
+  
+.visualart {
+    grid-column: 1;
+    grid-row: 1 / 7;
+
+    position: relative;
+    overflow: hidden;
+}
+.backvideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+.photography {
+    grid-column: 2; 
+    grid-row: 1 / 7;
+
+    background: url('img/photo/IMG_0755.png');
+    background-size: cover;
+    background-position: center;
+}
+.graphicdesign {
+    grid-column: 3;
+    grid-row: 1 / 7;
+
+    background: url('img/graphicdesign/continous\ outline\ effect\ person.png');
+    background-size: cover;
+    background-position: center;
+}
