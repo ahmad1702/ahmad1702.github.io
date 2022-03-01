@@ -1,0 +1,55 @@
+.feed {
+    padding: 5rem 5rem 5rem 5rem
+}
+.heading {
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 400px;
+    margin: 2rem;
+    border-radius: 3rem;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-width: 3px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+}
+.img-container {
+    width: 50vh;
+    height: 100%;
+    border-radius: 0 2rem 2rem 0;
+
+    
+    background-position: center;
+    background-size: 150%;
+    
+}
+.card-content {
+    padding: 4rem;
+    width: 50%;
+    height: auto;
+}
+.card-content h1 {
+    font-size: 30pt;
+}
+.card-content p {
+    font-size: 18pt;
+}
+
+#img-1 {
+    background-image: url("../img/graphicdesign/postmark.png");
+}
+
+#img-2 {
+    background-image: url("../img/graphicdesign/allamoda.png");
+}
+#img-3 {
+    background-image: url("../img/graphicdesign/gelato.png");
+    background-size:contain;
+}
