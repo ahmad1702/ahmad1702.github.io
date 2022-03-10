@@ -1,91 +1,14 @@
-.gallery {
-    height: 90vh;
-    box-sizing: border-box;
-    padding: 2rem;
+.header-container {
+  background: url("../resources/assets/img/visualart/visualgradientbackground.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    grid-auto-rows: minmax(100px, auto);
+.heading {
+  color: white;
 }
 
-.wrapper div{
-    
-    border-radius: 2rem;
-    box-sizing: border-box;
-    padding: 2rem;
-    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.103);
-    transition: 0.2s ease-in-out;
-    overflow: hidden;
-    color: white;
-    font-weight: 600;
-    position: relative;
+.subheading {
+  color: white;
 }
-.wrapper div p {
-    position: absolute;
-    bottom: 2rem;
-    left: 2rem;
-}
-.wrapper div:hover {
-    filter: brightness(0.8);
-}
-  
-.one {
-    grid-column: 1;
-    grid-row: 1 / 5;
-
-    background-image: url('../img/visualart/ethereal\ \(1\).jpg');
-    background-size: cover;
-    background-position: center;
-}
-.two {
-    grid-column: 2;
-    grid-row: 1 / 9;
-
-    background: url('../img/visualart/iredescenttapei.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.three {
-    grid-column: 3;
-    grid-row: 1 / 8;
-    position: relative;
-    overflow: hidden;
-}
-.backvideovisual {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    min-width: 100%;
-    height: auto;
-    min-height: 100%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
-}
-.four {
-    grid-column: 1;
-    grid-row: 5 / 12;
-
-    background-image: url('../img/visualart/grainy\ constellation.jpeg');
-    background-size: cover;
-    background-position: center;
-}
-.five {
-    grid-column: 2;
-    grid-row: 9 /15;
-
-    background-image: url('../img/visualart/Face\ Paint.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.six {
-    grid-column: 3;
-    grid-row: 8 / 13;
-
-    background-image: url('../img/visualart/city\ market\ oil\ paint\ effect.png');
-    background-size: cover;
-    background-position: center;
-}
+/*# sourceMappingURL=visualart.css.map */
