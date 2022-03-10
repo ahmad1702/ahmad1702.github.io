@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,UAAU,EAAE,qDAAqD;CACpE",
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,UAAU,EAAE,qDAAqD;CACpE;;AAED,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,KAAK;CACf",
     "sources": [
         "photography.scss"
     ],
