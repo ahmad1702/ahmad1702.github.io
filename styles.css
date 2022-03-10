@@ -192,9 +192,15 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
   .header-title {
-    height: 100%;
+    height: auto;
     line-height: 90%;
+    font-size: 25pt;
   }
 }
 

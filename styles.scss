@@ -145,9 +145,13 @@ header {
   font-size: 18pt;
 }
 @media screen and (max-width: 768px) {
+  header {
+    justify-content: flex-start;
+  }
   .header-title {
-    height: 100%; 
+    height: auto; 
     line-height: 90%;
+    font-size: 25pt;
   }
 }
 /* -------------- Summary -------------- */
@@ -201,6 +205,9 @@ header {
     width: 100%;
     height: 100%;
     padding-bottom: 4rem;
+  }
+  .header-title {
+
   }
 }
 // /*------- Global Gallery -------*/
