@@ -63,6 +63,13 @@ html {
           filter: brightness(0.75);
 }
 
+@media screen and (min-width: 993) {
+  .img-container {
+    height: 100%;
+    width: auto;
+  }
+}
+
 .img-container:hover {
   cursor: pointer;
 }
@@ -105,6 +112,19 @@ html {
   }
   .img-container {
     height: 30vh;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .card-content {
+    padding: 2rem;
+  }
+  .card-content h1 {
+    font-size: 20pt;
+  }
+  .card-content p {
+    margin: 0;
+    font-size: 11pt;
   }
 }
 /*# sourceMappingURL=dev.css.map */
