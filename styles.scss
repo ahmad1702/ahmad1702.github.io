@@ -312,21 +312,21 @@ header {
   }
   filter: invert(1);
 }
-.card {
-  width: 30vw;
-  height: 25vh;
-  background-color: rgb(190, 190, 190);
-  border-radius: 2rem;
-  box-sizing: border-box;
-  padding: 1rem;
-  color: rgb(0, 0, 0);
+// .card {
+//   width: 30vw;
+//   height: 25vh;
+//   background-color: rgb(190, 190, 190);
+//   border-radius: 2rem;
+//   box-sizing: border-box;
+//   padding: 1rem;
+//   color: rgb(0, 0, 0);
   
-  .subtitle {
-    font-size: 15pt;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-}
+//   .subtitle {
+//     font-size: 15pt;
+//     font-weight: 600;
+//     margin-bottom: 10px;
+//   }
+// }
 .categories {
   display: flex;
   justify-content: space-around;

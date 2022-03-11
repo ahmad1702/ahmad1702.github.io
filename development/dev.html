@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmad Sandid</title>
+
+    <!-- CSS Import -->
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="dev.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="header-container">
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="../index.html">
+                    <h1>AHMAD</h1>
+                </a>
+            </div>
+            <div class="nav-list">
+                <a href="../index.html">
+                    <li>Home</li>
+                </a>
+                <a href="dev.html">
+                    <li>Development</li>
+                </a>
+                <a href="../VisualArt/VisualArt.html">
+                    <li>Visual Art</li>
+                </a>
+                <a href="../photography/photography.html">
+                    <li>Photography</li>
+                </a>
+                <!-- <a href="#"><li>Design</li></a> -->
+            </div>
+        </nav>
+        <nav class="mobilenavigation">
+            <div class="mobilelogo">
+                <a href="../index.html">
+                    <h1 id="water">AHMAD</h1>
+                </a>
+            </div>
+            <div id="menuToggle" class="animated animatedFadeInUp fadeInUp">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="../index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="development.html">
+                        <li>Development</li>
+                    </a>
+                    <a href="../VisualArt/VisualArt.html">
+                        <li>Visual Art</li>
+                    </a>
+                    <a href="../photography/photography.html">
+                        <li>Photography</li>
+                    </a>
+                    <!-- <a href="#"><li>Design</li></a> -->
+                </ul>
+            </div>
+        </nav>
+        <section class="devProjects">
+            <h1 class="heading">Freelance Projects</h1>
+            <p class="subheading">All these Projects Below have links to the source code on Github.</p>
+            <div class="box">
+                <a href="" class="projectDisplay"></a>
+            </div>
+            <div class="card">
+                <div class="img-container" id="img-1">
+                    <div href="https://github.com/ahmad1702/Delta-Tablet-SignUp-Python" target="_blank"
+                        class="viewProject">View on Github</div>
+                    <img src="../resources/assets/img/dev/deltapythonadvancedscreenshotcropped.jpg" alt="">
+                </div>
+                <!-- <img src="../resources/assets/img/dev/deltapythonadvancedscreenshot.jpg" alt="" srcset=""> -->
+                <div class="card-content">
+                    <h1>Delta Business Solutions</h1>
+                    <p>Worked with Delta Business Solutions to create a program for their signup portal made entirely in
+                        Python, including the medium GUI. This was later
+                        redeveloped to connect with their backend, and after that had to be disclosed. But the base code
+                        that was written entirely on my end is shown here. A user can create or delete an account.
+                        Usually this would be used on a tablet by the front desk. In this example it writes to a word
+                        file, but when my project was approved we used API to send requests to their server,
+                        increasing the scalability of the product.</p>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="dev.js"></script>
+</body>
+
+</html>

@@ -377,23 +377,6 @@ header {
   margin-bottom: 3rem;
 }
 
-.card {
-  width: 30vw;
-  height: 25vh;
-  background-color: #bebebe;
-  border-radius: 2rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 1rem;
-  color: black;
-}
-
-.card .subtitle {
-  font-size: 15pt;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
 .categories {
   display: -webkit-box;
   display: -ms-flexbox;
