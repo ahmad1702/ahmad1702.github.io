@@ -1,0 +1,14 @@
+.visualart .header-container {
+  background: url("../../resources/assets/img/visualart/visualgradientbackground.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.visualart .heading {
+  color: white;
+}
+
+.visualart .subheading {
+  color: white;
+}
+/*# sourceMappingURL=Visualart.css.map */

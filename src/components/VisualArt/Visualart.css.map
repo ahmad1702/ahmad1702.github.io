@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,UADQ,CACR,iBAAiB,CAAC;EAChB,UAAU,EAAE,wEAAwE;EACpF,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC5B;;AALH,AAOE,UAPQ,CAOR,QAAQ,CAAC;EACP,KAAK,EAAE,KAAK;CACb;;AATH,AAWE,UAXQ,CAWR,WAAW,CAAC;EACV,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "Visualart.scss"
+    ],
+    "names": [],
+    "file": "Visualart.css"
+}
