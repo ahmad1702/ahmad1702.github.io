@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Dev.scss";
 import Nav from "../Nav/Nav";
 
-export default function dev() {
+function Dev() {
+  // useEffect(() => {
+  //   console.log("wafl;kajljfjafjw waterrrrrrr")
+  // });
   return (
     <div className="dev">
       <div className="header-container">
@@ -20,10 +23,14 @@ export default function dev() {
               <div
                 href="https://github.com/ahmad1702/Delta-Tablet-SignUp-Python"
                 target="_blank"
-                className="viewProject">
+                className="viewProject"
+              >
                 View on Github
               </div>
-              <img src={require('../../resources/assets/img/dev/deltacropped.jpg')} alt="" />
+              <img
+                src={require("../../resources/assets/img/dev/deltacropped.jpg")}
+                alt=""
+              />
             </div>
             {/* <img src={require("../../resources/assets/img/dev/deltacropped.jpg")} alt="" srcset="" /> */}
             <div className="card-content">
@@ -47,7 +54,8 @@ export default function dev() {
               <div
                 href="https://github.com/ahmad1702/Delta-Tablet-SignUp-Python"
                 target="_blank"
-                className="viewProject">
+                className="viewProject"
+              >
                 View on Github
               </div>
               <img
@@ -73,3 +81,5 @@ export default function dev() {
     </div>
   );
 }
+
+export default Dev;
