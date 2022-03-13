@@ -16,7 +16,7 @@ function App() {
         <Route path="/photography" element={<Photo />} />
         <Route path="/visualart" element={<VisualArt />} />
         <Route path="/development" element={<Dev />} />
-        <Route path="*" element={<ErrorPage />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </div>
   );

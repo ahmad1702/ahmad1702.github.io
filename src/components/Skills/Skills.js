@@ -43,7 +43,7 @@ export default function Skills() {
                 <li>Numpy</li>
                 <li>Selenium</li>
                 <li>Web Scraping</li>
-                <li>Jupyter Notebook/ Google Colab</li>
+                <li>Jupyter Notebook + Google Colab</li>
                 <li>Data Cleaning w/ Python</li>
               </ul>
             </div>

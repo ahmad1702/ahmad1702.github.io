@@ -24,6 +24,7 @@ function Dev() {
                 href="https://github.com/ahmad1702/Delta-Tablet-SignUp-Python"
                 target="_blank"
                 className="viewProject"
+                id="viewProject"
               >
                 View on Github
               </div>

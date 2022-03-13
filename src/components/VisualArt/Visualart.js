@@ -58,6 +58,7 @@ export default function visualart() {
                 autoPlay
                 loop
                 muted
+                playsInline
               />
               <video
                 className="galleryVideo"
@@ -65,6 +66,7 @@ export default function visualart() {
                 autoPlay
                 loop
                 muted
+                playsInline
               />
               <img
                 src={require('../../resources/assets/img/visualart/syrant edited.png')}

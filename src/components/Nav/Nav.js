@@ -35,7 +35,7 @@ export default function Nav() {
       </nav>
       <nav className="mobilenavigation">
         <div id="menuToggle" className="animated animatedFadeInUp fadeInUp">
-          <input type="checkbox" />
+          <input type="checkbox" id="mobilenavcheck"/>
           <span></span>
           <span></span>
           <span></span>

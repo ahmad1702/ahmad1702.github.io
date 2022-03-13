@@ -4,12 +4,31 @@
     background-size: cover;
     background-position: center;
   }
-  
+
   .heading {
     color: white;
   }
-  
+
   .subheading {
     color: white;
+  }
+  .gallery {
+    color: white;
+  }
+  @media screen and (max-width: 768px) {
+    .gallery {
+      padding: 2rem;
+      margin-top: 3rem;
+    }
+    .box {
+      flex-direction: column;
+    }
+    .dream {
+      width: auto;
+    }
+    .dream img,
+    .galleryVideo {
+      padding: 1rem 0 0 0;
+    }
   }
 }
