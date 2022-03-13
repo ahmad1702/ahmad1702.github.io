@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7af5c20f.css",
-    "main.js": "/static/js/main.35f55567.js",
+    "main.js": "/static/js/main.fad5bb5a.js",
     "static/media/syrant edited.png": "/static/media/syrant edited.817c997b8a4ab9ee0e0c.png",
     "static/media/grainy constellation.jpeg": "/static/media/grainy constellation.3b7bd6624360f2ddc410.jpeg",
     "static/media/IMG_0755.png": "/static/media/IMG_0755.454eccc314b19db4db8e.png",
@@ -29,10 +29,10 @@
     "static/media/blue3dgradient.jpg": "/static/media/blue3dgradient.770957ec2122594e4485.jpg",
     "index.html": "/index.html",
     "main.7af5c20f.css.map": "/static/css/main.7af5c20f.css.map",
-    "main.35f55567.js.map": "/static/js/main.35f55567.js.map"
+    "main.fad5bb5a.js.map": "/static/js/main.fad5bb5a.js.map"
   },
   "entrypoints": [
     "static/css/main.7af5c20f.css",
-    "static/js/main.35f55567.js"
+    "static/js/main.fad5bb5a.js"
   ]
 }
