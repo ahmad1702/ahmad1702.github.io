@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.87f36743.css",
-    "main.js": "/static/js/main.3809d640.js",
+    "main.css": "/static/css/main.4d0ddd9d.css",
+    "main.js": "/static/js/main.8099cd3c.js",
     "static/media/syrant edited.png": "/static/media/syrant edited.817c997b8a4ab9ee0e0c.png",
     "static/media/grainy constellation.jpeg": "/static/media/grainy constellation.3b7bd6624360f2ddc410.jpeg",
     "static/media/IMG_0755.png": "/static/media/IMG_0755.454eccc314b19db4db8e.png",
@@ -13,6 +13,7 @@
     "static/media/Lion animacion.mp4": "/static/media/Lion animacion.2c8034bcb24532431aea.mp4",
     "static/media/liquify background.jpg": "/static/media/liquify background.cab1f37fe7a5258d5430.jpg",
     "static/media/Mohammad Hadid.jpg": "/static/media/Mohammad Hadid.843562a85d5ff62991ed.jpg",
+    "static/media/thiswebsite.png": "/static/media/thiswebsite.e3e810547da48f4a5a66.png",
     "static/media/IMG_0135.jpg": "/static/media/IMG_0135.e23e1509e0e148d56b0a.jpg",
     "static/media/ethereal (1).jpg": "/static/media/ethereal (1).18d2e509c80ac72129b7.jpg",
     "static/media/IMG_0652-3.jpg": "/static/media/IMG_0652-3.dba0375de8a8c462746b.jpg",
@@ -29,11 +30,11 @@
     "static/media/visualgradientbackground.jpg": "/static/media/visualgradientbackground.8a9b0fab380ca06d0c6f.jpg",
     "static/media/blue3dgradient.jpg": "/static/media/blue3dgradient.770957ec2122594e4485.jpg",
     "index.html": "/index.html",
-    "main.87f36743.css.map": "/static/css/main.87f36743.css.map",
-    "main.3809d640.js.map": "/static/js/main.3809d640.js.map"
+    "main.4d0ddd9d.css.map": "/static/css/main.4d0ddd9d.css.map",
+    "main.8099cd3c.js.map": "/static/js/main.8099cd3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.87f36743.css",
-    "static/js/main.3809d640.js"
+    "static/css/main.4d0ddd9d.css",
+    "static/js/main.8099cd3c.js"
   ]
 }
