@@ -47,7 +47,7 @@ function Dev() {
   // imgs.onload = function () {
   //   console.log(this.width + "x" + this.height);
   // };
-  React.Dom.body.style.background = ""
+  // React.Dom.body.style.background = ""
   return (
     <div className="dev">
         {/* background: url("../../resources/assets/img/dev/blue3dgradient.jpg");

@@ -28,9 +28,9 @@ export default function Nav() {
           <li>
             <Link to="/photography">Photography</Link>
           </li>
-          <Link to="#">
+          {/* <Link to="#">
             <li>Design</li>
-          </Link>
+          </Link> */}
         </div>
       </nav>
       <nav className="mobilenavigation">
