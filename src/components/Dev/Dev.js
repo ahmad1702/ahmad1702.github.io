@@ -93,9 +93,9 @@ function Dev() {
           </div>
 
           <div className="card">
-            <div className="img-container" id="img-2">
+            <div className="img-container" id="img-3">
               <div
-                href="https://github.com/ahmad1702/Delta-Tablet-SignUp-Python"
+                href="https://github.com/ahmad1702/ahmad1702.github.io"
                 target="_blank"
                 className="viewProject"
               >

@@ -14,6 +14,7 @@ ReactDOM.render(
 
 let img1 = document.getElementById("img-1");
 let img2 = document.getElementById("img-2");
+let img3 = document.getElementById("img-3");
 
 let checkBox = document.getElementById("mobilenavcheck");
 
@@ -33,33 +34,49 @@ checkBox.addEventListener(
   }
 );
 
-function myFunction(x) {
-  if (x.matches) {
-    // If media query matches
-    img1.addEventListener("mouseover", function () {
-      window.open(
-        "https://github.com/ahmad1702/Delta-Tablet-SignUp-Python",
-        "_blank"
-      );
-    });
+img1.addEventListener("click", function () {
+  window.open(
+    "https://github.com/ahmad1702/Delta-Tablet-SignUp-Python",
+    "_blank"
+  );
+});
 
-    img2.addEventListener("mouseover", function () {
-      window.open("https://github.com/ahmad1702/Cognatic", "_blank");
-    });
-  } else {
-    img1.addEventListener("click", function () {
-      window.open(
-        "https://github.com/ahmad1702/Delta-Tablet-SignUp-Python",
-        "_blank"
-      );
-    });
+img2.addEventListener("click", function () {
+  window.open("https://github.com/ahmad1702/Cognatic", "_blank");
+});
+img3.addEventListener("click", function () {
+  window.open("https://github.com/ahmad1702/ahmad1702.github.io",
+    "_blank"
+  );
+});
 
-    img2.addEventListener("click", function () {
-      window.open("https://github.com/ahmad1702/Cognatic", "_blank");
-    });
-  }
-}
+// function myFunction(x) {
+//   if (x.matches) {
+//     // If media query matches
+//     img1.addEventListener("mouseover", function () {
+//       window.open(
+//         "https://github.com/ahmad1702/Delta-Tablet-SignUp-Python",
+//         "_blank"
+//       );
+//     });
 
-var x = window.matchMedia("(max-width: 700px)");
-myFunction(x); // Call listener function at run time
-// x.addEventListener(myFunction); // Attach listener function on state changes
+//     img2.addEventListener("mouseover", function () {
+//       window.open("https://github.com/ahmad1702/Cognatic", "_blank");
+//     });
+//   } else {
+//     img1.addEventListener("click", function () {
+//       window.open(
+//         "https://github.com/ahmad1702/Delta-Tablet-SignUp-Python",
+//         "_blank"
+//       );
+//     });
+
+//     img2.addEventListener("click", function () {
+//       window.open("https://github.com/ahmad1702/Cognatic", "_blank");
+//     });
+//   }
+// }
+
+// var x = window.matchMedia("(max-width: 700px)");
+// myFunction(x); // Call listener function at run time
+// // x.addEventListener(myFunction); // Attach listener function on state changes 
