@@ -50,15 +50,15 @@ function Dev() {
   // React.Dom.body.style.background = ""
   return (
     <div className="dev">
-        {/* background: url("../../resources/assets/img/dev/blue3dgradient.jpg");
+      {/* background: url("../../resources/assets/img/dev/blue3dgradient.jpg");
         background-size: cover;
         background-position: center;
         background-attachment: fixed; */}
-        
+
       <div className="header-container">
         <Nav />
         <section className="devProjects">
-          <h1 className="heading">Freelance Projects</h1>
+          <h1 className="heading">Dev Projects</h1>
           <p className="subheading">
             All these Projects Below have links to the source code on Github.
           </p>
@@ -66,19 +66,18 @@ function Dev() {
             <a href className="projectDisplay" />
           </div>
           <div className="card">
-            <div className="img-container" id="img-2">
-              <div
-                href="https://github.com/ahmad1702/Delta-Tablet-SignUp-Python"
-                target="_blank"
-                className="viewProject"
-              >
-                View on Github
-              </div>
+            <a
+              className="img-container"
+              id="img-2"
+              href="https://github.com/ahmad1702/Cognatic"
+              target="_blank"
+            >
+              <div className="viewProject">View on Github</div>
               <img
                 src={require("../../resources/assets/img/dev/ticketscreenshot.png")}
                 alt=""
               />
-            </div>
+            </a>
             {/* <img src="../../resources/assets/img/dev/deltapythonadvancedscreenshot.jpg" alt="" srcset=""> */}
             <div className="card-content">
               <h1>Dynamic Ticketing System</h1>
@@ -93,7 +92,12 @@ function Dev() {
           </div>
 
           <div className="card">
-            <div className="img-container" id="img-3">
+            <a
+              href="https://github.com/ahmad1702/ahmad1702.github.io"
+              target="_blank"
+              className="img-container"
+              id="img-3"
+            >
               <div
                 href="https://github.com/ahmad1702/ahmad1702.github.io"
                 target="_blank"
@@ -105,7 +109,7 @@ function Dev() {
                 src={require("../../resources/assets/img/dev/thiswebsite.png")}
                 alt=""
               />
-            </div>
+            </a>
             {/* <img src="../../resources/assets/img/dev/deltapythonadvancedscreenshot.jpg" alt="" srcset=""> */}
             <div className="card-content">
               <h1>This Porfolio Website</h1>
@@ -117,7 +121,12 @@ function Dev() {
             </div>
           </div>
           <div className="card">
-            <div className="img-container" id="img-1">
+            <a
+              className="img-container"
+              id="img-1"
+              href="https://github.com/ahmad1702/Delta-Tablet-SignUp-Python"
+              target="_blank"
+            >
               <div
                 href="https://github.com/ahmad1702/Delta-Tablet-SignUp-Python"
                 target="_blank"
@@ -131,7 +140,7 @@ function Dev() {
                 alt=""
                 id="rock"
               />
-            </div>
+            </a>
             {/* <img src={require("../../resources/assets/img/dev/deltacropped.jpg")} alt="" srcset="" /> */}
             <div className="card-content">
               <h1>Delta Business Solutions (Python)</h1>

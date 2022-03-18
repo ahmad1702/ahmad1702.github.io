@@ -34,21 +34,21 @@ checkBox.addEventListener(
   }
 );
 
-img1.addEventListener("click", function () {
-  window.open(
-    "https://github.com/ahmad1702/Delta-Tablet-SignUp-Python",
-    "_blank"
-  );
-});
+// img1.addEventListener("click", function () {
+//   window.open(
+//     "https://github.com/ahmad1702/Delta-Tablet-SignUp-Python",
+//     "_blank"
+//   );
+// });
 
-img2.addEventListener("click", function () {
-  window.open("https://github.com/ahmad1702/Cognatic", "_blank");
-});
-img3.addEventListener("click", function () {
-  window.open("https://github.com/ahmad1702/ahmad1702.github.io",
-    "_blank"
-  );
-});
+// img2.addEventListener("click", function () {
+//   window.open("https://github.com/ahmad1702/Cognatic", "_blank");
+// });
+// img3.addEventListener("click", function () {
+//   window.open("https://github.com/ahmad1702/ahmad1702.github.io",
+//     "_blank"
+//   );
+// });
 
 // function myFunction(x) {
 //   if (x.matches) {

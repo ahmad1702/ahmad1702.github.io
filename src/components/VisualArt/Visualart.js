@@ -29,7 +29,7 @@ export default function visualart() {
                 src={require('../../resources/assets/img/visualart/ethereal (1).jpg')}
                 alt=""
               />
-              <img src={require('../../resources/assets/img/photo/IMG_0975.jpg')} alt="" />
+              {/* <img src={require('../../resources/assets/img/photo/IMG_0975.jpg')} alt="" /> */}
             </div>
             <div className="dream">
               <img
@@ -49,7 +49,7 @@ export default function visualart() {
                 src={require('../../resources/assets/img/visualart/grainy constellation.jpeg')}
                 alt=""
               />
-              <img src={require('../../resources/assets/img/photo/IMG_0738.jpg')} alt="" />
+              {/* <img src={require('../../resources/assets/img/photo/IMG_0738.jpg')} alt="" /> */}
             </div>
             <div className="dream" id="dream3">
               <video
@@ -72,7 +72,7 @@ export default function visualart() {
                 src={require('../../resources/assets/img/visualart/syrant edited.png')}
                 alt=""
               />
-              <img src={require('../../resources/assets/img/photo/IMG_0651.jpg')} alt="" />
+              {/* <img src={require('../../resources/assets/img/photo/IMG_0651.jpg')} alt="" /> */}
               <img
                 src={require('../../resources/assets/img/visualart/IMG_0135.jpg')}
                 alt=""

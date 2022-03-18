@@ -14,7 +14,7 @@ export default function Skills() {
                 <li>HTML</li>
                 <li>CSS + SCSS/Sass</li>
                 <li>
-                  Angular
+                  Angular + React
                   <ul>
                     <li>Angular Material Design</li>
                     <li>NgxCharts</li>
