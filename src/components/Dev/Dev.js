@@ -48,6 +48,7 @@ function Dev() {
   //   console.log(this.width + "x" + this.height);
   // };
   // React.Dom.body.style.background = ""
+  console.log("apple");
   return (
     <div className="dev">
       {/* background: url("../../resources/assets/img/dev/blue3dgradient.jpg");
@@ -56,7 +57,9 @@ function Dev() {
         background-attachment: fixed; */}
 
       <div className="header-container">
-        <Nav />
+        <div className="mobilenav">
+          <Nav />
+        </div>
         <section className="devProjects">
           <h1 className="heading">Dev Projects</h1>
           <p className="subheading">
