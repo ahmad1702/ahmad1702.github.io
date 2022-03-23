@@ -1,10 +1,8 @@
-import React from "react";
+import React from 'react'
+import "./transLang.scss";
 
 export default function transLang() {
-    
   return (
-    <div style="color: white;">
-      <p>transLang</p>
-    </div>
-  );
+    <div className='transLang'>transLang</div>
+  )
 }

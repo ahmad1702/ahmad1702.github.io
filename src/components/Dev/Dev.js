@@ -72,6 +72,30 @@ function Dev() {
             <a
               className="img-container"
               id="img-2"
+              href="https://github.com/ahmad1702/YouAreEl"
+              target="_blank"
+            >
+              <div className="viewProject">View on Github</div>
+              <img
+                src={require("../../resources/assets/img/dev/youareelscreenshote.png")}
+                alt=""
+              />
+            </a>
+            {/* <img src="../../resources/assets/img/dev/deltapythonadvancedscreenshot.jpg" alt="" srcset=""> */}
+            <div className="card-content">
+              <h1>YouAreEl Shortener</h1>
+              <p>
+                Built completely with Flask. A user can enter a short code for a website or file, and when
+                they go to YouAreEl.herokuapp.com and add their codename to the
+                end of the domain like 'YouAreEl.herokuapp.com/codenamehere', it
+                will redirect them to that site.
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <a
+              className="img-container"
+              id="img-2"
               href="https://github.com/ahmad1702/Cognatic"
               target="_blank"
             >
