@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e273613c.css",
-    "main.js": "/static/js/main.3ed0c6a4.js",
+    "main.css": "/static/css/main.5d0fb17a.css",
+    "main.js": "/static/js/main.ef1b3e0f.js",
     "static/media/syrant edited.png": "/static/media/syrant edited.817c997b8a4ab9ee0e0c.png",
     "static/media/grainy constellation.jpeg": "/static/media/grainy constellation.3b7bd6624360f2ddc410.jpeg",
     "static/media/IMG_0755.png": "/static/media/IMG_0755.454eccc314b19db4db8e.png",
@@ -31,12 +31,13 @@
     "static/media/youareelscreenshot.png": "/static/media/youareelscreenshot.c6ed92d30646e51730fe.png",
     "static/media/visualgradientbackground.jpg": "/static/media/visualgradientbackground.8a9b0fab380ca06d0c6f.jpg",
     "static/media/devbackground.jpeg": "/static/media/devbackground.932a10f16ffb6d41ccdd.jpeg",
+    "static/media/translangscreenshot.png": "/static/media/translangscreenshot.0beb04403a21cf5b5295.png",
     "index.html": "/index.html",
-    "main.e273613c.css.map": "/static/css/main.e273613c.css.map",
-    "main.3ed0c6a4.js.map": "/static/js/main.3ed0c6a4.js.map"
+    "main.5d0fb17a.css.map": "/static/css/main.5d0fb17a.css.map",
+    "main.ef1b3e0f.js.map": "/static/js/main.ef1b3e0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e273613c.css",
-    "static/js/main.3ed0c6a4.js"
+    "static/css/main.5d0fb17a.css",
+    "static/js/main.ef1b3e0f.js"
   ]
 }
