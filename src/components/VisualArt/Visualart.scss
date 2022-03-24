@@ -1,8 +1,19 @@
 .visualart {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  background: url("../../resources/assets/img/visualart/visualartbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
   .header-container {
-    background: url("../../resources/assets/img/visualart/visualgradientbackground.jpg");
-    background-size: cover;
-    background-position: center;
+    // background: url("../../resources/assets/img/visualart/visualgradientbackground.jpg");
+    // background-size: cover;
+    // background-position: center;
+    width: 100%;
+    height: 100%;
+    background: transparent;
   }
 
   .heading {

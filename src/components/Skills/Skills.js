@@ -4,7 +4,7 @@ import "./Skills.scss";
 export default function Skills() {
   return (
     <section className="summary">
-      <div className="container-lg">
+      <div className="container-lg blurbackground">
         <h1 className="heading">My Skills</h1>
         <div className="programming">
           <div className="categories">

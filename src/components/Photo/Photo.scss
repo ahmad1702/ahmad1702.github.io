@@ -1,21 +1,31 @@
 .photo {
-    .header-container {
-        // background: url("../../resources/assets/img/gradientbackground.jpg");
-    }
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  background: url("../../resources/assets/img/visualart/visualgradientbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  .header-container {
+    // background: url("../../resources/assets/img/gradientbackground.jpg");
+    height: 100%;
+    width: 100%;
+    background: transparent;
+  }
+  .gallery {
+    color: white;
+  }
+
+  @media (max-width: 768px) {
     .gallery {
-        color: white;
+      padding: 2rem;
+      margin-top: 4rem;
     }
-    
-    @media (max-width: 768px) {
-        .gallery {
-            padding: 2rem;
-            margin-top: 4rem;
-        }
-        .box {
-            flex-direction: column;
-        }
-        .dream {
-            width: auto;
-        }
+    .box {
+      flex-direction: column;
     }
+    .dream {
+      width: auto;
+    }
+  }
 }

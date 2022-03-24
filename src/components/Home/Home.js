@@ -1,9 +1,11 @@
 import React from "react";
 import Skills from '../Skills/Skills';
-import Nav from '../Nav/Nav'
+import Nav from '../Nav/Nav';
+import './Home.scss';
+
 export default function Home() {
   return (
-    <div>
+    <div className="Home">
       <div className="header-container">
         <Nav />
         <header>

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAKI,MALE,CAKF,QAAQ,CAAC;EACL,KAAK,EAAE,KAAK;CACf",
-    "sources": [
-        "Photo.scss"
-    ],
-    "names": [],
-    "file": "Photo.css"
-}

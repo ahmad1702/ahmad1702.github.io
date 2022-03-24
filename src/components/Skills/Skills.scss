@@ -1,0 +1,19 @@
+.blurbackground {
+    border-radius: 3rem;
+    backdrop-filter: blur(20px);
+    padding: 3rem;
+    box-sizing: border-box;
+}
+.summary {
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .summary {
+    padding: 1rem;
+  }
+  .blurbackground {
+    padding: 2rem 1rem
+  }
+}

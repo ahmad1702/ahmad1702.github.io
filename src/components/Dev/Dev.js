@@ -1,54 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import "./Dev.scss";
 import Nav from "../Nav/Nav";
 
+import { TweenMax, Power3 } from 'gsap'
+
 function Dev() {
-  // // useEffect(() => {
-  // //   console.log("wafl;kajljfjafjw waterrrrrrr")
-  // // });
-  // let img1 = document.getElementById("img-1");
-  // let img2 = document.getElementById("img-2");
-
-  // let checkBox = document.getElementById("mobilenavcheck");
-
-  // checkBox.addEventListener(
-  //   "change",
-
-  //   function githubButtonFix() {
-  //     img1.style.transition = "all 2s";
-  //     if (checkBox.checked == true) {
-  //       img1.style.opacity = "0";
-
-  //       // img1.classList.add("minus");
-  //     } else {
-  //       img1.style.opacity = "1";
-  //       // img1.classList.remove("minus");
-  //     }
-  //   }
-  // );
-  // var img = new Image();
-  // img.onload = function () {
-  //   alert(this.width + "x" + this.height);
-  // };
-  // img.src = "http://www.google.com/intl/en_ALL/images/logo.gif";
-  // const showResolution = () => {
-  //   console.log(this.width + "x" + this.height);
-  // }
-  // const imgs = document.getElementsByTagName("img");
-  // const imgslist = Array.prototype.slice.call(imgs);
-  // // for (let i = 0; i < imgs.length; i++) {
-  // //   console.log();
-  // // }
-  // // imgs.forEach(function(node) {
-  // //   console.log(this.width + "x" + this.height);
-  // // });
-  // imgslist.forEach(showResolution());
-
-  // imgs.onload = function () {
-  //   console.log(this.width + "x" + this.height);
-  // };
-  // React.Dom.body.style.background = ""
-  console.log("apple");
+  let logoItem = useRef('water');
+  console.log(logoItem)
   return (
     <div className="dev">
       {/* background: url("../../resources/assets/img/dev/blue3dgradient.jpg");
@@ -65,21 +23,18 @@ function Dev() {
           <p className="subheading">
             All these Projects Below have links to the source code on Github.
           </p>
-          <div className="box">
-            <a href className="projectDisplay" />
-          </div>
           <div className="card">
             <a
               className="img-container"
-              id="img-2"
+              id="img-1"
               href="https://github.com/ahmad1702/YouAreEl"
               target="_blank"
             >
               <div className="viewProject">View on Github</div>
-              <img
-                src={require("../../resources/assets/img/dev/youareelscreenshote.png")}
+              {/* <img
+                src={require("../../resources/assets/img/dev/youareelscreenshot.png")}
                 alt=""
-              />
+              /> */}
             </a>
             {/* <img src="../../resources/assets/img/dev/deltapythonadvancedscreenshot.jpg" alt="" srcset=""> */}
             <div className="card-content">
@@ -87,15 +42,39 @@ function Dev() {
               <p>
                 Built completely with Flask. A user can enter a short code for a website or file, and when
                 they go to YouAreEl.herokuapp.com and add their codename to the
-                end of the domain like 'YouAreEl.herokuapp.com/codenamehere', it
+                end of the domain like 'http.../codenamehere', it
                 will redirect them to that site.
               </p>
+              <a href="https://youareel.herokuapp.com/" target="_blank">Check out the live site here</a>
             </div>
           </div>
           <div className="card">
             <a
               className="img-container"
               id="img-2"
+              href="https://github.com/ahmad1702/TransLang"
+              target="_blank"
+            >
+              <div className="viewProject">View on Github</div>
+              {/* <img
+                src={require("../../resources/assets/img/dev/translangscreenshot.png")}
+                alt=""
+              /> */}
+            </a>
+            {/* <img src="../../resources/assets/img/dev/deltapythonadvancedscreenshot.jpg" alt="" srcset=""> */}
+            <div className="card-content">
+              <h1>Translang</h1>
+              <p>
+                Created with React. Translate text quickly and efficiently with this simple, nice to use app. Configure the two lanauages you would like to using the dropdowns, enter the text in the first half, and click the translate button to translate the text.
+                
+              </p>
+              <a href="https://translang.surge.sh/" target="_blank">Check out the live site here</a>
+            </div>
+          </div>
+          <div className="card">
+            <a
+              className="img-container"
+              id="img-3"
               href="https://github.com/ahmad1702/Cognatic"
               target="_blank"
             >
@@ -123,7 +102,7 @@ function Dev() {
               href="https://github.com/ahmad1702/ahmad1702.github.io"
               target="_blank"
               className="img-container"
-              id="img-3"
+              id="img-4"
             >
               <div
                 href="https://github.com/ahmad1702/ahmad1702.github.io"
@@ -150,7 +129,7 @@ function Dev() {
           <div className="card">
             <a
               className="img-container"
-              id="img-1"
+              id="img-5"
               href="https://github.com/ahmad1702/Delta-Tablet-SignUp-Python"
               target="_blank"
             >
