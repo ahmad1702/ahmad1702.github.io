@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d0fb17a.css",
-    "main.js": "/static/js/main.ef1b3e0f.js",
+    "main.css": "/static/css/main.4b580f1c.css",
+    "main.js": "/static/js/main.267b56f8.js",
     "static/media/syrant edited.png": "/static/media/syrant edited.817c997b8a4ab9ee0e0c.png",
     "static/media/grainy constellation.jpeg": "/static/media/grainy constellation.3b7bd6624360f2ddc410.jpeg",
     "static/media/IMG_0755.png": "/static/media/IMG_0755.454eccc314b19db4db8e.png",
@@ -16,6 +16,7 @@
     "static/media/thiswebsite.png": "/static/media/thiswebsite.e3e810547da48f4a5a66.png",
     "static/media/IMG_0135.jpg": "/static/media/IMG_0135.e23e1509e0e148d56b0a.jpg",
     "static/media/ethereal (1).jpg": "/static/media/ethereal (1).18d2e509c80ac72129b7.jpg",
+    "static/media/Photobackground.jpg": "/static/media/Photobackground.38aa6767317073f2c90b.jpg",
     "static/media/IMG_0652-3.jpg": "/static/media/IMG_0652-3.dba0375de8a8c462746b.jpg",
     "static/media/IMG_0738.jpg": "/static/media/IMG_0738.f923fc1ac86337bd5812.jpg",
     "static/media/IMG_0714.jpg": "/static/media/IMG_0714.6d52665a5eb006f52918.jpg",
@@ -27,17 +28,16 @@
     "static/media/ticketscreenshot.png": "/static/media/ticketscreenshot.ea509e4df214faf04365.png",
     "static/media/deltacropped.jpg": "/static/media/deltacropped.ce4f1f9df02d7e5d6dd3.jpg",
     "static/media/IMG_0975.jpg": "/static/media/IMG_0975.8b60a796452684c1d4e3.jpg",
-    "static/media/visualartbackground.jpg": "/static/media/visualartbackground.0253b7a1226047c65258.jpg",
     "static/media/youareelscreenshot.png": "/static/media/youareelscreenshot.c6ed92d30646e51730fe.png",
     "static/media/visualgradientbackground.jpg": "/static/media/visualgradientbackground.8a9b0fab380ca06d0c6f.jpg",
     "static/media/devbackground.jpeg": "/static/media/devbackground.932a10f16ffb6d41ccdd.jpeg",
     "static/media/translangscreenshot.png": "/static/media/translangscreenshot.0beb04403a21cf5b5295.png",
     "index.html": "/index.html",
-    "main.5d0fb17a.css.map": "/static/css/main.5d0fb17a.css.map",
-    "main.ef1b3e0f.js.map": "/static/js/main.ef1b3e0f.js.map"
+    "main.4b580f1c.css.map": "/static/css/main.4b580f1c.css.map",
+    "main.267b56f8.js.map": "/static/js/main.267b56f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d0fb17a.css",
-    "static/js/main.ef1b3e0f.js"
+    "static/css/main.4b580f1c.css",
+    "static/js/main.267b56f8.js"
   ]
 }
