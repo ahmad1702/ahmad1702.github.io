@@ -6,7 +6,7 @@
   backdrop-filter: brightness(0.8);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
 
   .header-container {
     // background: url("../../resources/assets/img/dev/blue3dgradient.jpg");
@@ -41,12 +41,14 @@
     }
   }
   .card {
-    background-color: white;
+    // background-color: white;
+    color: white;
+    backdrop-filter: blur(20px);
     width: auto;
     height: 400px;
     margin: 2rem 0rem;
     border-radius: 3rem;
-    border: 3px solid #8a8a8a;
+    border: 1.5px solid #eeeeee67;
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.329);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.329);
     overflow: hidden;
@@ -182,6 +184,24 @@
 }
 #img-2 {
   background: url("../../resources/assets/img/dev/translangscreenshot.png");
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: top;
+}
+#img-3 {
+  background: url("../../resources/assets/img/dev/ticketscreenshot.png");
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: top;
+}
+#img-4 {
+  background: url("../../resources/assets/img/dev/thiswebsite.png");
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: top;
+}
+#img-5 {
+  background: url("../../resources/assets/img/dev/deltacropped.jpg");
   background-size: cover;
   background-position-x: left;
   background-position-y: top;

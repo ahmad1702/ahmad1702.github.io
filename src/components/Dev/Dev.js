@@ -79,10 +79,10 @@ function Dev() {
               target="_blank"
             >
               <div className="viewProject">View on Github</div>
-              <img
+              {/* <img
                 src={require("../../resources/assets/img/dev/ticketscreenshot.png")}
                 alt=""
-              />
+              /> */}
             </a>
             {/* <img src="../../resources/assets/img/dev/deltapythonadvancedscreenshot.jpg" alt="" srcset=""> */}
             <div className="card-content">
@@ -111,10 +111,10 @@ function Dev() {
               >
                 View on Github
               </div>
-              <img
+              {/* <img
                 src={require("../../resources/assets/img/dev/thiswebsite.png")}
                 alt=""
-              />
+              /> */}
             </a>
             {/* <img src="../../resources/assets/img/dev/deltapythonadvancedscreenshot.jpg" alt="" srcset=""> */}
             <div className="card-content">
@@ -141,11 +141,11 @@ function Dev() {
               >
                 View on Github
               </div>
-              <img
+              {/* <img
                 src={require("../../resources/assets/img/dev/deltacropped.jpg")}
                 alt=""
                 id="rock"
-              />
+              /> */}
             </a>
             {/* <img src={require("../../resources/assets/img/dev/deltacropped.jpg")} alt="" srcset="" /> */}
             <div className="card-content">
