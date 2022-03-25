@@ -65,7 +65,7 @@ function Dev() {
             <div className="card-content">
               <h1>Translang</h1>
               <p>
-                Created with React. Translate text quickly and efficiently with this simple, nice to use app. Configure the two lanauages you would like to using the dropdowns, enter the text in the first half, and click the translate button to translate the text.
+                Created with React and D3.js. Translate text quickly and efficiently with this simple, nice to use app. Configure the two lanauages you would like to using the dropdowns, enter the text in the first half, and click the translate button to translate the text.
                 
               </p>
               <a href="https://translang.surge.sh/" target="_blank">Check out the live site here</a>
