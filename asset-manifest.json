@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c3990da.css",
-    "main.js": "/static/js/main.dd1a0363.js",
+    "main.css": "/static/css/main.e416a679.css",
+    "main.js": "/static/js/main.8cb49e25.js",
     "static/media/syrant edited.png": "/static/media/syrant edited.817c997b8a4ab9ee0e0c.png",
     "static/media/grainy constellation.jpeg": "/static/media/grainy constellation.3b7bd6624360f2ddc410.jpeg",
     "static/media/IMG_0755.png": "/static/media/IMG_0755.454eccc314b19db4db8e.png",
@@ -16,6 +16,7 @@
     "static/media/thiswebsite.png": "/static/media/thiswebsite.e3e810547da48f4a5a66.png",
     "static/media/IMG_0135.jpg": "/static/media/IMG_0135.e23e1509e0e148d56b0a.jpg",
     "static/media/ethereal (1).jpg": "/static/media/ethereal (1).18d2e509c80ac72129b7.jpg",
+    "static/media/ngoku-screenshot.png": "/static/media/ngoku-screenshot.7702ce530bdbdc5ffafa.png",
     "static/media/IMG_0652-3.jpg": "/static/media/IMG_0652-3.dba0375de8a8c462746b.jpg",
     "static/media/IMG_0738.jpg": "/static/media/IMG_0738.f923fc1ac86337bd5812.jpg",
     "static/media/IMG_0714.jpg": "/static/media/IMG_0714.6d52665a5eb006f52918.jpg",
@@ -25,18 +26,22 @@
     "static/media/IMG_2527.jpg": "/static/media/IMG_2527.52b1e8bc7c3644171e87.jpg",
     "static/media/IMG_2705.jpg": "/static/media/IMG_2705.de1055efb0981c2fb0ee.jpg",
     "static/media/deltacropped.jpg": "/static/media/deltacropped.ce4f1f9df02d7e5d6dd3.jpg",
+    "static/media/pawwpetshop-screenshot.png": "/static/media/pawwpetshop-screenshot.bf2c8fa0074fb6ea92ec.png",
     "static/media/IMG_0975.jpg": "/static/media/IMG_0975.8b60a796452684c1d4e3.jpg",
     "static/media/PhotoBackground5.jpg": "/static/media/PhotoBackground5.e1ee342bcd403d7d987c.jpg",
+    "static/media/vetzu-screenshot.png": "/static/media/vetzu-screenshot.3cbea446c0419f18f17f.png",
+    "static/media/amjad-screenshot.png": "/static/media/amjad-screenshot.fb935001717f960dcaaa.png",
     "static/media/youareelscreenshot.png": "/static/media/youareelscreenshot.c6ed92d30646e51730fe.png",
+    "static/media/delta-screenshot.png": "/static/media/delta-screenshot.a071a1baae0e509b8924.png",
     "static/media/visualgradientbackground.jpg": "/static/media/visualgradientbackground.8a9b0fab380ca06d0c6f.jpg",
     "static/media/devbackground.jpeg": "/static/media/devbackground.932a10f16ffb6d41ccdd.jpeg",
     "static/media/translangscreenshot.png": "/static/media/translangscreenshot.0beb04403a21cf5b5295.png",
     "index.html": "/index.html",
-    "main.7c3990da.css.map": "/static/css/main.7c3990da.css.map",
-    "main.dd1a0363.js.map": "/static/js/main.dd1a0363.js.map"
+    "main.e416a679.css.map": "/static/css/main.e416a679.css.map",
+    "main.8cb49e25.js.map": "/static/js/main.8cb49e25.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c3990da.css",
-    "static/js/main.dd1a0363.js"
+    "static/css/main.e416a679.css",
+    "static/js/main.8cb49e25.js"
   ]
 }
